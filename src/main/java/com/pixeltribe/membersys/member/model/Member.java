@@ -1,6 +1,10 @@
-package com.pixeltribe.membersys.vo;
+package com.pixeltribe.membersys.member.model;
 
 import com.pixeltribe.forumsys.forumVO.*;
+import com.pixeltribe.membersys.friendlist.model.FriendList;
+import com.pixeltribe.membersys.memberloginlog.model.MemberLoginLog;
+import com.pixeltribe.membersys.privatechatroom.model.PrivateChatroom;
+import com.pixeltribe.membersys.privatemessage.model.PrivateMessage;
 import com.pixeltribe.newssys.news.model.News;
 import com.pixeltribe.newssys.newscomreport.model.NewsComReport;
 import com.pixeltribe.newssys.newscomment.model.NewsComment;
@@ -8,6 +12,7 @@ import com.pixeltribe.newssys.newslike.model.NewsLike;
 import com.pixeltribe.shopsys.couponWallet.model.CouponWallet;
 import com.pixeltribe.shopsys.favoriteProduct.model.FavoriteProduct;
 import com.pixeltribe.shopsys.order.model.Order;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

@@ -1,6 +1,7 @@
 package com.pixeltribe.shopsys.order.model;
 
-import com.pixeltribe.membersys.vo.Member;
+
+import com.pixeltribe.membersys.member.model.Member;
 import com.pixeltribe.shopsys.couponWallet.model.CouponWallet;
 import com.pixeltribe.shopsys.orderItem.model.OrderItem;
 
@@ -49,5 +50,5 @@ public class Order {
 
     @OneToMany(mappedBy = "orderNo")
     private Set<OrderItem> orderItems = new LinkedHashSet<>();
-
 }
+

@@ -1,6 +1,10 @@
 package com.pixeltribe.shopsys.favoriteProduct.model;
 
-import com.pixeltribe.membersys.vo.Member;
+
+import com.pixeltribe.membersys.member.model.Member;
+
+import com.pixeltribe.membersys.member.model.Member;
+
 import com.pixeltribe.shopsys.product.model.Product;
 
 import jakarta.persistence.*;
