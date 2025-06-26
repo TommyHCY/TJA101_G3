@@ -1,6 +1,9 @@
-package com.pixeltribe.shopsys.vo;
+package com.pixeltribe.shopsys.order.model;
 
 import com.pixeltribe.membersys.vo.Member;
+import com.pixeltribe.shopsys.couponWallet.model.CouponWallet;
+import com.pixeltribe.shopsys.orderItem.model.OrderItem;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

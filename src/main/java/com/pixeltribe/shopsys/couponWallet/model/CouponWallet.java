@@ -1,6 +1,8 @@
-package com.pixeltribe.shopsys.vo;
+package com.pixeltribe.shopsys.couponWallet.model;
 
 import com.pixeltribe.membersys.vo.Member;
+import com.pixeltribe.shopsys.order.model.Order;
+
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
