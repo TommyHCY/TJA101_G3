@@ -1,4 +1,4 @@
-package com.pixeltribe.forumsys.ForumMes.model;
+package com.pixeltribe.forumsys.forummes.model;
 
 import com.pixeltribe.forumsys.forumpost.model.ForumPost;
 import com.pixeltribe.membersys.member.model.Member;
@@ -39,20 +39,18 @@ public class ForumMesDTO {
     @Schema(description = "會員編號")
     private String memberNo;
 
-    public ForumMesDTO convertEntityToDTO(ForumMes forumMes){
-        return ForumMesDTO.builder()
-                .id(forumMes.getId())
-                .mesCon(forumMes.getMesCon())
-                .mesCrdate(forumMes.getMesCrdate())
-                .mesUpdata(forumMes.getMesUpdata())
-                .mesStatus(forumMes.getMesStatus())
-                .mesLikeLc(forumMes.getMesLikeLc())
-                .mesLikeDlc(forumMes.getMesLikeDlc())
-                .postId(forumMes.getPostNo().getId())
-                .build();
-
-
-    }
+//    public ForumMesDTO convertEntityToDTO(ForumMes forumMes){
+//        return ForumMesDTO.builder()
+//                .id(forumMes.getId())
+//                .mesCon(forumMes.getMesCon())
+//                .mesCrdate(forumMes.getMesCrdate())
+//                .mesUpdata(forumMes.getMesUpdata())
+//                .mesStatus(forumMes.getMesStatus())
+//                .mesLikeLc(forumMes.getMesLikeLc())
+//                .mesLikeDlc(forumMes.getMesLikeDlc())
+//                .postId(forumMes.getPostNo().getId())
+//                .build();
+//    }
 
 
 
